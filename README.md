@@ -12,4 +12,4 @@ selected：当前每页数据
 
 截图
 
-![Alt text](https://github.com/chenyufeng1991/NewsClient/raw/master/Screenshots/2.png)
+![Alt text](https://github.com/lamb1/xxs-pagination-vue/raw/master/screenshots/one.png)
