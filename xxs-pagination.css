@@ -1,0 +1,78 @@
+.page-select,.page-list{
+	float: left;
+}
+.page-select{
+	border: 1px solid #ddd;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	padding: 8px 12px;
+	margin: 1px 5px;
+	line-height: 1.4;
+	color: #404040;
+	cursor: pointer;
+	outline: none;
+}
+.page-list, .page-list li {
+	margin: 0;
+	padding: 0;
+}
+
+.page-bar {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.page-button-disabled {
+	color:#ddd !important;
+}
+.page-button-disabled:hover {
+	color:#ffffff !important;
+	background-color: #eeeeee!important;
+}
+
+.page-bar li {
+	list-style: none;
+	display: inline-block;
+}
+
+.page-bar li:first-child > a {
+	margin-left: 0;
+}
+
+.page-bar a {
+	border: 1px solid #ddd;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	line-height: 1.4;
+	color: #404040;
+	cursor: pointer;
+	margin: 0 5px;
+}
+
+
+.page-bar a:hover {
+	background-color: #eee;
+}
+
+.page-bar .active a {
+	color: #ffe337;
+	cursor: default;
+	background-color: #404040;
+	border-color: #404040;
+}
+.page-bar a.prev,.page-bar a.next{
+	border: none;
+	background-color: transparent;
+}
+.page-bar a.prev:hover,.page-bar a.next:hover{
+	color: #ffe337;
+	background-color: #404040;
+	border-color: #404040;
+}

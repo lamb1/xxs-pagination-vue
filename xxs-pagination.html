@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="statics/libs/vue.min.js"></script>
+    <link href="xxs-pagination.css" rel="stylesheet" />
+    <script src="xxs-pagination.js"></script>
+</head>
+<body>
+    <div id="app">
+        <vue-pagination :cur.sync="cur" :all.sync="all" :count.sync="count" v-on:btn-click="listen"></vue-pagination>
+    </div>
+    <script type="text/javascript">
+        var app = new Vue({
+            el: '#app',
+            data: {
+                cur: 1,
+                count:100
+            },
+            components: {
+                'vue-pagination': Vue.Pagination
+            }
+        })
+    </script>
+</body>
+</html>
