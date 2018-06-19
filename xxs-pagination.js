@@ -10,7 +10,7 @@
                        </li> \
                        <li><a class="next" :class="setButtonClass(1)" v-on:click="nextPage()">下一页</a></li> \
                      </ul> \
-                   </div>'
+                   </div>';
 
     var pagination = vue.extend({
         template: template,
